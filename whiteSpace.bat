@@ -1,1 +1,0 @@
-@py.exe C:\scripts\whiteSpace.py %S
