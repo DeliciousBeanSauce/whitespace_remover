@@ -4,10 +4,9 @@ import time
 
 
 def on_activate_strip():
-    time.sleep(0.2)
+    time.sleep(0.2) # Delay to avoid occasional empty copy buffer
     data = pyperclip.paste()
     text = data.strip()
-    text = text.replace('\r', '')
     pyperclip.copy(text)
 
 
