@@ -1,4 +1,4 @@
-# whitespace_remover
+# Whitespace remover
 
 At work, our system does not trip whitespace in search boxes and thus return no results from database
 
