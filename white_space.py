@@ -7,6 +7,7 @@ def on_activate_strip():
     time.sleep(0.2)
     data = pyperclip.paste()
     text = data.strip()
+    text = text.replace('\r', '')
     pyperclip.copy(text)
 
 
